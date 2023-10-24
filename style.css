@@ -88,6 +88,15 @@ button:active{
     margin: 0 auto;
     height: 100px;
     width: 100px;
-    background-color: #fff;
-    margin-top: 10px;
+    background-color: #090909;
+    margin-top: 20px;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 25px;
+    border: 1px solid #fff;
 }
+
+
