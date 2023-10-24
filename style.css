@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,12 @@
 
 }
 
-body{
+body {
     background-color: black;
 
 }
 
-img{
+img {
     display: block;
     height: 374px;
     margin: 150px auto 0;
@@ -19,23 +19,23 @@ img{
 }
 
 
-h2{
-color: #fff;
-text-align: center;
-margin-top: 30px;
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
 }
 
-.section_sorteio{
+.section_sorteio {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
 
-input{
+input {
     width: 342px;
     height: 74px;
-    border:none;
+    border: none;
     border-radius: 14px;
     text-align: center;
     color: aliceblue;
@@ -46,26 +46,39 @@ input{
 
 }
 
-button{
+input[type="number"] {
+    color: red;
+  }
+
+input[type="number"]::-webkit-inner-spin-button {
+    
+    visibility: hidden;
+  }
+  
+ 
+
+button {
     display: block;
     margin: 0 auto;
     width: 342px;
     height: 72px;
-    border: none;
+    border: 1px solid #08cdeb;
     border-radius: 10px;
-    background: #AEC346;
     margin-top: 20px;
+    font-size: 32px;
+    color: #fff;
+    background-color: transparent;
 
 
-    
+
+
 }
 
-span{
-    display: block;
-    margin: 0 auto ;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 50%;
-    background: 70% #fff transparent ;
+button:hover{
+    opacity: 0.9;
+
+}
+
+button:active{
+    opacity: 0.6;
 }
